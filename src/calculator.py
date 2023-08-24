@@ -48,5 +48,33 @@ if question == "subtract" or question == "Subtraction" or question == "2" and "S
           answerForAddition = int(number1) - int(number2)
           print("The answer is: ", answerForAddition, " - Thanks for using the Python Calculator, WaffleBell")
 
+if question == "multiply" or question == "Multiply" or question == "3" and "multiply" and "multiply my subscriber count":
+        os.system('cls' if os.name == 'nt' else 'clear') #clears the terminal, this checks if you're running windows(nt) or if your running anything else it will run cls
+        print("Please enter the first number in your sum:")
+        number1 = input()
+        time.sleep(.1)
+        print("Okay, " + number1 + " is your first number, what's the second number you want to multiply with?")
+        number2 = input()
+        userInputForYesOrNo = input(number1 + " x " + number2 + " - Calculate?\n")
 
+        if userInputForYesOrNo == "y" or "yes" or "yeah":
+          # int(number1)
+          # int(number2)
+          answerForAddition = int(number1) * int(number2)
+          print("The answer is: ", answerForAddition, " - Thanks for using the Python Calculator, WaffleBell")
+
+if question == "divide" or question == "Divide" or question == "4" and "Division" and "divide my haters":
+        os.system('cls' if os.name == 'nt' else 'clear') #clears the terminal, this checks if you're running windows(nt) or if your running anything else it will run cls
+        print("Please enter the first number in your sum:")
+        number1 = input()
+        time.sleep(.1)
+        print("Okay, " + number1 + " is your first number, what's the second number you want to divide with?")
+        number2 = input()
+        userInputForYesOrNo = input(number1 + " / " + number2 + " - Calculate?\n")
+
+        if userInputForYesOrNo == "y" or "yes" or "yeah" and "Yeah" and "yeah":
+          # int(number1)
+          # int(number2)
+          answerForAddition = int(number1) / int(number2)
+          print("The answer is: ", answerForAddition, " - Thanks for using the Python Calculator, WaffleBell")
 else: print("Enter one of the options above you silly!")
